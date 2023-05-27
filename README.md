@@ -11,4 +11,4 @@ PORT: 7000 - [Main Page](http://localhost:7000)
 - Database PORT = 5432
 
 ### Relations:
-[ERD](C:\Users\nourh\Desktop\ERD)
+[[https://github.com/Nourhan-Adell/Treatment_Plan_System/blob/31024b1574df0d5ddd1c4dcb189811d7e1adec35/ERD.png|alt=octocat]]
