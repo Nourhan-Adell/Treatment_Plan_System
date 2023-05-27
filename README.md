@@ -5,4 +5,10 @@ In this project, I've created a RESTful API.
 
 PORT: 7000 - [Main Page](http://localhost:7000)
 
+## Database Setup:
 
+- "CREATE DATABASE disease_db;"
+- Database PORT = 5432
+
+### Relations:
+[ERD](C:\Users\nourh\Desktop\ERD)
