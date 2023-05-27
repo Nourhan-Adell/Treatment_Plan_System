@@ -1,0 +1,7 @@
+{
+  "driver": "pg",
+  "host": "localhost",
+  "database": "disease_db",
+  "user": "postgres",
+  "password": "NourhanAdel"
+}

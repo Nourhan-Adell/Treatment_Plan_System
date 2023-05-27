@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Select Elements</title>
+  </head>
+  <body>
+    <h1>Select Elements</h1>
+
+    <form action="/submit-symptoms" method="post">
+      <% for (let i = 0; i < elements.length; i++) { %>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="element_<%= i %>" name="elements[]" value="<%= elements[i].name %>" />
+        <label class="form-check-label" for="element_<%= i %>"> <%= elements[i].name %> </label>
+      </div>
+      <% } %>
+
+      <button type="submit" class="btn btn-primary">Save Elements</button>
+    </form>
+  </body>
+</html>
